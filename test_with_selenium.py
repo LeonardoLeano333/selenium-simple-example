@@ -10,14 +10,23 @@ CHROME_PATH = "C:\\Users\\Dell\\Downloads\\chromedriver.exe"
 class PythonOrgSearch(unittest.TestCase):
 
     def setUp(self):
+        """
+        function which runs in the beggining of each test
+        """
         self.driver = webdriver.Chrome(
             executable_path=CHROME_PATH
             )
 
     def tearDown(self):
+        """
+        function which runs in the end of each test
+        """
         self.driver.close()
 
     def test_search_in_python_org(self):
+        """
+        example of test getting information from python website
+        """
         driver = self.driver
         driver.get("http://www.python.org")
         self.assertIn("Python", driver.title)
