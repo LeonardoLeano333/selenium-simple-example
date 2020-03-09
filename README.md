@@ -4,6 +4,15 @@
 download a google webdriver from:
 https://chromedriver.storage.googleapis.com/index.html
 
+extract this get the path:
+```
+"C:\\Users\\Dell\\Downloads\\chromedriver.exe"
+```
+copy and paste at the variable in the file `test_with_selenium.py`:
+```
+CHROME_PATH = "C:\\Users\\Dell\\Downloads\\chromedriver.exe"
+```
+
 ## install selenium via pip
 ```
 pip install selenium
