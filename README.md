@@ -24,5 +24,13 @@ python test_with_selenium.py
 ```
 This code should return something like this:
 ```
-DevTools listening on ws://127.0.0.1:51510/devtools/browser/8ccef8fa-b9f3-4350-8433-5109777406de                                                                      .                                                                                  ----------------------------------------------------------------------             Ran 1 test in 4.438s                                                                                                                                                  OK                                                            
+DevTools listening on ws://127.0.0.1:51510/devtools/browser/8ccef8fa-b9f3-4350-8433-5109777406de
+.                                                             
+----------------------------------------------------------------------
+Ran 1 test in 4.
+438s                                                          
+
+
+
+OK                                                            
 ```
